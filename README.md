@@ -7,7 +7,7 @@
 - **Publication Date:** July, 2021
 - **ISSN:** E-ISSN: 2229-7677
 - **DOI:** https://doi.org/10.71097/IJSAT.v12.i3.11229
-- **Impact Factor:** 
+- **Impact Factor:** 9.88
 
 ### Abstract
 Clustered computing environments play a vital role in supporting large scale data processing, enterprise applications, and scientific workloads. Existing static scalability models suffer from workload imbalance, communication bottlenecks, and declining efficiency as cluster size increases. The study introduces an adaptive optimization framework that dynamically performs load distribution, resource reallocation, and communication path optimization based on workload conditions. Experimental evaluation across clusters of 3, 5, 7, 9, and 11 nodes demonstrates consistent scalability improvements over static allocation strategies. The findings show that adaptive scalability enhances resource utilization, resilience, and overall system reliability in expanding clustered computing environments.
@@ -36,14 +36,14 @@ Experimentally evaluated adaptive and static scalability across clusters with 3,
   | 11           |  57                          | 70                              | 22.81          |
 
 ### Citation
-Adaptive CPU Resource Management in Distributed Systems
+Optimizing Scalability and Efficiency in Clustered Computing Environments
 * SaiKrishna Mylavarapu
-* International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
-* ISSN E-ISSN: 2147-6799
+* International Journal on Science and Technology (IJSAT) 
+* ISSN E-ISSN: 2229-7677
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.
 * Resources \
-https://www.ijisae.org/ 
+https://www.ijsat.org/ 
 * Author Contact \
   **LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
 
