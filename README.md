@@ -14,9 +14,9 @@ Clustered computing environments play a vital role in supporting large scale dat
 
 ### Core Technical Contributions
 
-- **Adaptive Scalability Optimization Framework:** \
+- **Adaptive Scalability Optimization Framework:**\
 Designed an adaptive optimization framework that dynamically adjusts workload distribution, resource reallocation, and communication paths to improve scalability in clustered computing environments.
-- **Dynamic Workload Allocation Mechanism:** \
+- **Dynamic Workload Allocation Mechanism:**\
 Developed a runtime-aware task allocation mechanism that continuously monitors node utilization and assigns workloads to the least-loaded nodes, reducing resource imbalance and idle capacity.
 - **Communication Path Optimization Strategy:** \
 Introduced an adaptive communication optimization approach that minimizes coordination overhead and improves workload execution efficiency during cluster expansion.
