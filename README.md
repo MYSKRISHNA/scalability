@@ -3,10 +3,10 @@
 
 ### Paper Information
 - **Author(s):** SaiKrishna Mylavarapu
-- **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
-- **Publication Date:** June, 2022
-- **ISSN:** E-ISSN: 2147-6799
-- **DOI:**
+- **Published In:** International Journal on Science and Technology (IJSAT)
+- **Publication Date:** July, 2021
+- **ISSN:** E-ISSN: 2229-7677
+- **DOI:** https://doi.org/10.71097/IJSAT.v12.i3.11229
 - **Impact Factor:** 
 
 ### Abstract
