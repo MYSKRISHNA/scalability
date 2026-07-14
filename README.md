@@ -10,19 +10,20 @@
 - **Impact Factor:** 
 
 ### Abstract
-Efficient CPU resource management is essential for maintaining high performance in distributed systems as workloads and cluster sizes increase. Static workload allocation results in uneven CPU utilization, while conventional load balancing techniques cannot effectively adapt to dynamic workload variations. The study analyzes CPU usage across clusters with 3, 5, 7, 9, and 11 nodes to evaluate the limitations of existing allocation strategies. It demonstrates how workload imbalance and coordination overhead reduce resource utilization, system efficiency, and scalability. The findings highlight the need for adaptive workload allocation mechanisms based on real-time CPU usage to achieve balanced resource utilization and improved overall performance.
+Clustered computing environments play a vital role in supporting large scale data processing, enterprise applications, and scientific workloads. Existing static scalability models suffer from workload imbalance, communication bottlenecks, and declining efficiency as cluster size increases. The study introduces an adaptive optimization framework that dynamically performs load distribution, resource reallocation, and communication path optimization based on workload conditions. Experimental evaluation across clusters of 3, 5, 7, 9, and 11 nodes demonstrates consistent scalability improvements over static allocation strategies. The findings show that adaptive scalability enhances resource utilization, resilience, and overall system reliability in expanding clustered computing environments.
 
 ### Core Technical Contributions
 
-- **Adaptive CPU Resource Allocation Framework:** Designed a dynamic workload allocation framework that distributes tasks based on real time CPU utilization, improving resource efficiency and balanced node utilization.
-
-- **Intelligent Load Balancing Mechanism:** Implemented a load balancing strategy that selects the least loaded active server, reducing workload imbalance and improving CPU utilization across distributed nodes.
-
-- **Adaptive Auto Scaling Strategy:** Developed an auto scaling mechanism that provisions additional worker nodes when CPU load exceeds predefined thresholds, ensuring sustained performance under increasing workloads.
-
-- **Distributed System Simulation Model:** Implemented a Go based distributed system simulator integrating load balancing, server health monitoring, and adaptive scaling to evaluate CPU resource management strategies.
-
-- **Scalability Analysis Across Cluster Sizes:** Evaluated CPU utilization across clusters of 3, 5, 7, 9, and 11 nodes, demonstrating the scalability benefits of adaptive resource allocation over deterministic approaches. 
+- **Adaptive Scalability Optimization Framework:** \
+Designed an adaptive optimization framework that dynamically adjusts workload distribution, resource reallocation, and communication paths to improve scalability in clustered computing environments.
+- **Dynamic Workload Allocation Mechanism:** \
+Developed a runtime-aware task allocation mechanism that continuously monitors node utilization and assigns workloads to the least-loaded nodes, reducing resource imbalance and idle capacity.
+- **Communication Path Optimization Strategy:** \
+Introduced an adaptive communication optimization approach that minimizes coordination overhead and improves workload execution efficiency during cluster expansion.
+- **Go-Based Adaptive Cluster Simulation:** \
+Implemented the proposed adaptive framework in Go using dynamic task scheduling and workload monitoring to validate scalable execution across distributed computing nodes.
+- **Scalability Evaluation Across Cluster Sizes:** \
+Experimentally evaluated adaptive and static scalability across clusters with 3, 5, 7, 9, and 11 nodes, demonstrating sustained scalability and higher resource utilization under increasing infrastructure size.
 
 ### Experimental Results (Summary)
 
